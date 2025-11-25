@@ -1,0 +1,246 @@
+{
+    "trading": {
+        "default_symbol": "BTC/USDT",
+        "timeframe": "1h",
+        "risk_percentage": 2.0,
+        "max_positions": 5,
+        "stop_loss_percentage": 3.0,
+        "take_profit_percentage": 6.0,
+        "trailing_stop": true,
+        "trailing_stop_distance": 2.0,
+        "market_type": "crypto",
+        "base_currency": "USDT",
+        "leverage": 1,
+        "lot_size": 0.01
+    },
+    "forex": {
+        "enabled": false,
+        "default_pairs": ["EUR/USD", "GBP/USD", "USD/JPY", "USD/CHF", "AUD/USD", "USD/CAD"],
+        "timeframe": "1h",
+        "risk_percentage": 1.0,
+        "max_positions": 3,
+        "stop_loss_pips": 50,
+        "take_profit_pips": 100,
+        "trailing_stop_pips": 30,
+        "lot_size": 0.1,
+        "leverage": 100,
+        "spread_threshold": 2.0,
+        "trading_hours": "24/5",
+        "swap_free": true
+    },
+    "risk_management": {
+        "max_drawdown": 20.0,
+        "position_sizing": "kelly",
+        "use_stop_loss": true,
+        "use_take_profit": true,
+        "emergency_stop": true
+    },
+    "technical_analysis": {
+        "rsi_period": 14,
+        "rsi_overbought": 70,
+        "rsi_oversold": 30,
+        "macd_fast": 12,
+        "macd_slow": 26,
+        "macd_signal": 9,
+        "bollinger_period": 20,
+        "bollinger_std": 2,
+        "ema_periods": [
+            9,
+            21,
+            50,
+            200
+        ]
+    },
+    "exchanges": {
+        "binance": {
+            "enabled": true,
+            "sandbox": true,
+            "api_key": "",
+            "api_secret": ""
+        },
+        "coinbase": {
+            "enabled": false,
+            "sandbox": true,
+            "api_key": "",
+            "api_secret": ""
+        },
+        "kraken": {
+            "enabled": false,
+            "sandbox": true,
+            "api_key": "",
+            "api_secret": ""
+        },
+        "bybit": {
+            "enabled": false,
+            "sandbox": true,
+            "api_key": "",
+            "api_secret": ""
+        },
+        "oanda": {
+            "enabled": false,
+            "sandbox": true,
+            "api_key": "",
+            "api_secret": "",
+            "account_id": "",
+            "environment": "practice"
+        },
+        "fxcm": {
+            "enabled": false,
+            "sandbox": true,
+            "api_key": "",
+            "api_secret": "",
+            "account_id": ""
+        },
+        "MetaTrader": {
+            "enabled": true,
+            "sandbox": true,
+            "server": "MetaQuotes-Demo",
+            "login": 12345678,
+            "password": "password",
+            "port": 443,
+            "path": "C:\\Program Files\\MetaTrader 5\\terminal64.exe",
+            "timeout": 30,
+            "max_retries": 3
+        },
+        "MetaTrader5": {
+            "enabled": true,
+            "sandbox": true,
+            "server": "MetaQuotes-Demo",
+            "login": 12345678,
+            "password": "password",
+            "path": "C:\\Program Files\\MetaTrader 5",
+            "timeout": 30,
+            "max_retries": 3,
+            "symbols": ["EURUSD", "GBPUSD", "USDJPY", "BTCUSD", "ETHUSD", "XAUUSD"],
+            "timeframes": ["M1", "M5", "M15", "H1", "H4", "D1"],
+            "risk_per_trade": 0.02,
+            "max_positions": 10,
+            "use_stop_loss": true,
+            "use_take_profit": true,
+            "sl_pips": 50,
+            "tp_pips": 100
+        }
+    },
+    "alerts": {
+        "telegram": {
+            "enabled": false,
+            "bot_token": "",
+            "chat_id": ""
+        },
+        "email": {
+            "enabled": false,
+            "smtp_server": "smtp.gmail.com",
+            "smtp_port": 587,
+            "username": "",
+            "password": "",
+            "to_email": ""
+        },
+        "webhook": {
+            "enabled": false,
+            "url": ""
+        }
+    },
+    "machine_learning": {
+        "enabled": true,
+        "model_type": "random_forest",
+        "training_days": 90,
+        "prediction_threshold": 0.6,
+        "retrain_interval": 7,
+        "feature_importance": true,
+        "cross_validation": true,
+        "generative_sentiment": {
+            "enabled": true,
+            "api_key": "demo_key",
+            "model": "gpt-3.5-turbo",
+            "max_tokens": 500,
+            "temperature": 0.3,
+            "sources": ["twitter", "reddit", "news", "forums"],
+            "update_interval": 300,
+            "sentiment_threshold": 0.6,
+            "market_impact_weight": 0.7
+        },
+        "advanced_momentum": {
+            "enabled": true,
+            "indicators": ["RSI", "MACD", "Stochastic", "ADX", "Volume", "UltimateOscillator", "WilliamsR"],
+            "ml_enhancement": true,
+            "divergence_detection": true,
+            "confidence_threshold": 0.65,
+            "time_horizons": ["SHORT", "MEDIUM", "LONG"],
+            "risk_levels": ["LOW", "MEDIUM", "HIGH"]
+        },
+        "pattern_recognition": {
+            "enabled": true,
+            "ml_model": "RandomForest",
+            "patterns": ["triangles", "flags", "pennants", "head_shoulders", "double_tops", "double_bottoms", "candlesticks"],
+            "confidence_threshold": 0.7,
+            "min_pattern_strength": 0.6,
+            "trend_line_detection": true,
+            "ml_prediction": true
+        }
+    },
+    "crypto_selector": {
+        "min_volume_usd": 1000000,
+        "min_market_cap_usd": 50000000,
+        "max_selection": 20,
+        "include_stablecoins": false,
+        "include_meme_coins": false,
+        "analysis_depth": "comprehensive"
+    },
+    "forex_selector": {
+        "enabled": false,
+        "major_pairs": ["EUR/USD", "GBP/USD", "USD/JPY", "USD/CHF", "AUD/USD", "USD/CAD", "NZD/USD"],
+        "minor_pairs": ["EUR/GBP", "EUR/JPY", "GBP/JPY", "AUD/JPY", "CAD/JPY"],
+        "exotic_pairs": ["USD/TRY", "USD/ZAR", "USD/MXN", "USD/SGD"],
+        "min_spread": 0.1,
+        "min_volume_24h": 1000000000,
+        "volatility_threshold": 0.02,
+        "correlation_filter": true,
+        "max_correlation": 0.8
+    },
+    "copy_trading": {
+      "enabled": true,
+      "master_accounts": [
+        {
+          "account_id": "master_001",
+          "name": "Primary Master",
+          "broker": "MetaTrader5",
+          "login": 12345678,
+          "server": "MetaQuotes-Demo",
+          "performance_threshold": 0.05,
+          "risk_level": "MEDIUM",
+          "min_balance": 1000,
+          "max_drawdown": 0.1
+        }
+      ],
+      "slave_accounts": [
+        {
+          "account_id": "slave_001",
+          "name": "Primary Slave",
+          "broker": "MetaTrader5",
+          "login": 87654321,
+          "server": "MetaQuotes-Demo",
+          "copy_mode": "PROPORTIONAL",
+          "copy_ratio": 1.0,
+          "max_risk_per_trade": 0.02,
+          "max_daily_loss": 0.05,
+          "master_account_id": "master_001"
+        }
+      ],
+      "copy_ratio": 1.0,
+      "max_slaves_per_master": 10,
+      "risk_multiplier": 1.0,
+      "database_path": "data/copy_trading.db",
+      "sync_interval": 60,
+      "max_trade_delay": 300,
+      "use_ai_enhancement": true,
+      "ai_model_path": "models/copy_trading_ai.pkl"
+    },
+    "system": {
+        "log_level": "INFO",
+        "log_to_file": true,
+        "max_log_size_mb": 100,
+        "backup_count": 5,
+        "timezone": "America/Sao_Paulo",
+        "language": "pt_BR"
+    }
+}

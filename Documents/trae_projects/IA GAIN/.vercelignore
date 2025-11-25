@@ -1,0 +1,102 @@
+# Ignorar TODOS os arquivos Python e trading (exceto API)
+*.py
+requirements.txt
+requirements_updated.txt
+.py
+venv/
+.venv/
+.venv311/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env.local
+
+# Ignorar diretórios de trading e análise
+src/forex/
+src/ml/
+src/strategies/
+src/analysis/
+src/brokers/
+src/exchange/
+src/risk/
+src/trading/
+src/data/
+src/alerts/
+src/interface/
+src/tests/
+*.json  # Arquivos de backtest e config
+
+# Ignorar arquivos de build e cache locais
+node_modules/
+dist/
+build/
+*.log
+.DS_Store
+.vscode/
+.idea/
+*.cache
+*.tmp
+*.temp
+.npm/
+.eslintcache
+
+# Ignorar arquivos binários Python
+*.dll
+*.pyd
+*.so
+*.exe
+
+# Ignorar arquivos de configuração locais
+.env*.local
+.vercel
+*.config.js.map
+
+# Ignorar diretórios específicos grandes
+pycdc/
+pycdc_bin/
+ea_agressivo/
+IA-GAIN-export/
+ia_gain/
+temp/
+backups/
+logs/
+data/
+decoded_py/
+models/
+
+# Ignorar arquivos de relatório e backtest
+reports/
+*.backtest
+*.strategy
+*.results
+
+# Ignorar scripts de desenvolvimento
+scripts/  # Manter apenas se necessário para API
+*.bat
+*.sh  
+setup-*.bat
+setup-*.sh
+
+# Ignorar arquivos de teste e diagnóstico
+test_*.js
+test_*.py
+*_test.*
+debug-*.js
+diagnostic-*.js
+browser_test_*.js
+
+# Ignorar cache e configurações
+*.pytest_cache/
+__pycache__/
+*.pyc
+.Python
+*.mo
+*.pot
+
+# Ignorar arquivos de sistema
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.AppleDouble
+.LSOverride

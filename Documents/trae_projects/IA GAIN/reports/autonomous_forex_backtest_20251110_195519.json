@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-11-10T19:55:19.590617",
+  "period_days": 15,
+  "timeframe": "4h",
+  "results": {},
+  "best_overall": {
+    "symbol": null,
+    "return_pct": -1000000000.0
+  }
+}

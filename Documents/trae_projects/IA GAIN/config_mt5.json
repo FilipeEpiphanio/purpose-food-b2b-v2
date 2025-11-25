@@ -1,0 +1,66 @@
+{
+  "mt5": {
+    "login": 197944283,
+    "password": "your_password_here",
+    "server": "Exness-MT5Trial11",
+    "path": "C:\\Program Files\\MetaTrader 5\\terminal64.exe",
+    "max_deviation": 10,
+    "symbols": [
+      "AUDCADm",
+      "AUDCHFm", 
+      "AUDJPYm",
+      "AUDUSDm",
+      "CADJPYm",
+      "CHFJPYm",
+      "EURAUDm",
+      "EURCADm",
+      "EURCHFm",
+      "EURGBPm",
+      "EURJPYm",
+      "EURNZDm",
+      "EURUSDm",
+      "GBPAUDm",
+      "GBPCADm",
+      "GBPCHFm",
+      "GBPJPYm",
+      "GBPNZDm",
+      "GBPUSDm",
+      "NZDCADm",
+      "NZDCHFm",
+      "NZDJPYm",
+      "NZDUSDm",
+      "USDCADm",
+      "USDCHFm",
+      "USDJPYm"
+    ],
+    "timeframes": {
+      "M1": 1,
+      "M5": 5,
+      "M15": 15,
+      "M30": 30,
+      "H1": 60,
+      "H4": 240,
+      "D1": 1440
+    },
+    "risk_management": {
+      "max_positions": 5,
+      "max_risk_per_trade": 0.02,
+      "max_daily_loss": 0.05,
+      "use_stop_loss": true,
+      "use_take_profit": true
+    },
+    "trading": {
+      "enabled": true,
+      "auto_trading": false,
+      "close_on_shutdown": true,
+      "slippage": 3,
+      "magic_number": 123456
+    }
+  },
+  "ia_gain": {
+    "enabled": true,
+    "analysis_interval": 300,
+    "save_data": true,
+    "log_level": "INFO"
+  }
+}

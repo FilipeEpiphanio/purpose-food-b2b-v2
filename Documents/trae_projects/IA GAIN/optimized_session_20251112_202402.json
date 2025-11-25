@@ -1,0 +1,19 @@
+{
+  "session_type": "optimized_live_trading",
+  "start_time": "2025-11-12T20:24:02.006632",
+  "initial_balance": 9931.38,
+  "final_balance": 9931.38,
+  "pnl": 0.0,
+  "pnl_percentage": 0.0,
+  "total_trades": 0,
+  "trades_won": 0,
+  "trades_lost": 0,
+  "max_drawdown": 0.0,
+  "parameters_used": {
+    "min_confidence": 0.55,
+    "volume_base": 0.01,
+    "risk_reward_ratio": 2.0,
+    "max_positions": 5
+  },
+  "operation_history": []
+}

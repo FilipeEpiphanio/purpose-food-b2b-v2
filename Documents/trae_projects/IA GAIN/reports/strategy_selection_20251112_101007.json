@@ -1,0 +1,134 @@
+{
+  "EUR/USD": {
+    "strategies": [
+      {
+        "strategy": "MOMENTUM",
+        "trades": 4,
+        "total_return": 0.08663772274456794,
+        "sharpe": 9.274516617470246
+      },
+      {
+        "strategy": "TREND_FOLLOWING",
+        "trades": 3,
+        "total_return": 0.11036027852474162,
+        "sharpe": 13.322087751291763
+      }
+    ],
+    "best": {
+      "strategy": "TREND_FOLLOWING",
+      "trades": 3,
+      "total_return": 0.11036027852474162,
+      "sharpe": 13.322087751291763
+    }
+  },
+  "GBP/USD": {
+    "strategies": [
+      {
+        "strategy": "MOMENTUM",
+        "trades": 4,
+        "total_return": 0.0908919688875991,
+        "sharpe": 10.079224328530902
+      },
+      {
+        "strategy": "TREND_FOLLOWING",
+        "trades": 3,
+        "total_return": 0.10630469504411288,
+        "sharpe": 12.779248549675794
+      }
+    ],
+    "best": {
+      "strategy": "TREND_FOLLOWING",
+      "trades": 3,
+      "total_return": 0.10630469504411288,
+      "sharpe": 12.779248549675794
+    }
+  },
+  "USD/JPY": {
+    "strategies": [
+      {
+        "strategy": "MOMENTUM",
+        "trades": 2,
+        "total_return": 0.03897823197997308,
+        "sharpe": 5.157741929504655
+      },
+      {
+        "strategy": "TREND_FOLLOWING",
+        "trades": 2,
+        "total_return": 0.10829112084042614,
+        "sharpe": 13.437898367952315
+      }
+    ],
+    "best": {
+      "strategy": "TREND_FOLLOWING",
+      "trades": 2,
+      "total_return": 0.10829112084042614,
+      "sharpe": 13.437898367952315
+    }
+  },
+  "USD/CHF": {
+    "strategies": [
+      {
+        "strategy": "MOMENTUM",
+        "trades": 3,
+        "total_return": 0.09526129922379067,
+        "sharpe": 11.112612145137406
+      },
+      {
+        "strategy": "TREND_FOLLOWING",
+        "trades": 2,
+        "total_return": 0.10884266398138398,
+        "sharpe": 13.775374078566466
+      }
+    ],
+    "best": {
+      "strategy": "TREND_FOLLOWING",
+      "trades": 2,
+      "total_return": 0.10884266398138398,
+      "sharpe": 13.775374078566466
+    }
+  },
+  "AUD/USD": {
+    "strategies": [
+      {
+        "strategy": "MOMENTUM",
+        "trades": 4,
+        "total_return": 0.08524128922733842,
+        "sharpe": 9.09439902033822
+      },
+      {
+        "strategy": "TREND_FOLLOWING",
+        "trades": 3,
+        "total_return": 0.10820479679879913,
+        "sharpe": 12.920469662867509
+      }
+    ],
+    "best": {
+      "strategy": "TREND_FOLLOWING",
+      "trades": 3,
+      "total_return": 0.10820479679879913,
+      "sharpe": 12.920469662867509
+    }
+  },
+  "USD/CAD": {
+    "strategies": [
+      {
+        "strategy": "MOMENTUM",
+        "trades": 3,
+        "total_return": 0.08776969707259707,
+        "sharpe": 9.430871223625568
+      },
+      {
+        "strategy": "TREND_FOLLOWING",
+        "trades": 2,
+        "total_return": 0.11033462096821112,
+        "sharpe": 13.303471838594595
+      }
+    ],
+    "best": {
+      "strategy": "TREND_FOLLOWING",
+      "trades": 2,
+      "total_return": 0.11033462096821112,
+      "sharpe": 13.303471838594595
+    }
+  }
+}

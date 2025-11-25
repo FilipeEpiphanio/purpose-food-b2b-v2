@@ -1,0 +1,34 @@
+# 🚀 SUPABASE SETUP - GUIA INTERATIVO
+# Siga estes passos para configurar seu Supabase
+
+## 📋 PASSO 1: Obtenha suas credenciais do Supabase
+
+1. Acesse: https://supabase.com
+2. Vá para seu projeto "purposefood"
+3. Clique em "Settings" (engrenagem no canto inferior esquerdo)
+4. Clique em "API"
+5. Copie estas informações:
+
+# COLE SUAS CREDENCIAIS AQUI:
+# URL do Projeto: https://[SEU-ID].supabase.co
+# Chave Anônima: eyJ...[sua chave]...
+# Service Role Key: eyJ...[sua chave]...
+
+## 📊 PASSO 2: Substitua as variáveis abaixo com suas credenciais
+
+# Frontend Configuration - SUBSTITUA AQUI:
+VITE_SUPABASE_URL=COLE_SUA_URL_AQUI
+VITE_SUPABASE_ANON_KEY=COLE_SUA_CHAVE_ANONIMA_AQUI
+
+# Backend Configuration - SUBSTITUA AQUI:
+SUPABASE_URL=COLE_SUA_URL_AQUI
+SUPABASE_SERVICE_ROLE_KEY=COLE_SUA_SERVICE_ROLE_KEY_AQUI
+
+# Configurações padrão (não altere)
+VITE_API_URL=http://localhost:3001/api
+FRONTEND_URL=http://localhost:5173
+PORT=3001
+
+# Configurações opcionais (deixe como está por enquanto)
+VITE_STRIPE_PUBLISHABLE_KEY=pk_test_sua_chave_stripe_opcional
+STRIPE_SECRET_KEY=sk_test_sua_chave_stripe_opcional

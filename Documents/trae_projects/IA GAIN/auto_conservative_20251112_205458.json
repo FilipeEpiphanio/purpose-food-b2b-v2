@@ -1,0 +1,20 @@
+{
+  "session_type": "auto_conservative_trading",
+  "start_time": "2025-11-12T20:54:58.725003",
+  "initial_balance": 38566.97,
+  "final_balance": 38566.97,
+  "pnl": 0.0,
+  "pnl_percentage": 0.0,
+  "total_trades": 0,
+  "trades_won": 0,
+  "trades_lost": 10,
+  "max_drawdown": -793.39,
+  "parameters_used": {
+    "max_risk_per_trade": 0.01,
+    "min_confidence": 0.55,
+    "risk_reward_ratio": 2.0,
+    "max_positions": 5,
+    "volume_base": 0.01
+  },
+  "operation_history": []
+}

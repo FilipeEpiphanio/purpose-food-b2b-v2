@@ -1,0 +1,2496 @@
+{
+  "timestamp": "2025-11-10T14:57:42.282709",
+  "best_strategy": "momentum",
+  "best_symbol": "ETHUSDT",
+  "best_return": 1.5704956520478894,
+  "all_results": {
+    "momentum": {
+      "BTCUSDT": {
+        "total_return": 0.0,
+        "max_drawdown": 0,
+        "num_trades": 0,
+        "final_value": 1000,
+        "trades": []
+      },
+      "ETHUSDT": {
+        "total_return": 1.5704956520478894,
+        "max_drawdown": 0,
+        "num_trades": 2,
+        "final_value": 2570.4956520478895,
+        "trades": [
+          {
+            "type": "OPEN_LONG",
+            "price": 4195.9606322242935
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 10785.698561296662,
+            "profit": 1.5704956520478899
+          }
+        ]
+      },
+      "ADAUSDT": {
+        "total_return": -0.3088777733192561,
+        "max_drawdown": 0.45653329691011013,
+        "num_trades": 4,
+        "final_value": 691.1222266807439,
+        "trades": [
+          {
+            "type": "OPEN_LONG",
+            "price": 55320.19022941512
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 30064.681398285775,
+            "profit": -0.45653329691011013
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 30064.681398285775
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 21896.349744815834,
+            "profit": 0.2716919412934701
+          }
+        ]
+      },
+      "SOLUSDT": {
+        "total_return": -0.5728246034650288,
+        "max_drawdown": 0.6273433045509139,
+        "num_trades": 16,
+        "final_value": 427.1753965349711,
+        "trades": [
+          {
+            "type": "OPEN_LONG",
+            "price": 17283.93391092589
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 14260.705239199657,
+            "profit": -0.17491554222011493
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 14260.705239199657
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 14247.134456515416,
+            "profit": 0.0009516207267882961
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 14247.134456515416
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 12197.573887622264,
+            "profit": -0.14385774031604362
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 12197.573887622264
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 10802.978873766231,
+            "profit": 0.11433380332061169
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 10802.978873766231
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 7623.799067799548,
+            "profit": -0.29428732973707367
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 7623.799067799548
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 9309.770785293957,
+            "profit": -0.22114587523894827
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 9309.770785293957
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 8011.081404221376,
+            "profit": -0.13949746035896354
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 8011.081404221376
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 6839.081121427293,
+            "profit": 0.14629738778793425
+          }
+        ]
+      },
+      "DOTUSDT": {
+        "total_return": 0.0,
+        "max_drawdown": 0,
+        "num_trades": 0,
+        "final_value": 1000,
+        "trades": []
+      }
+    },
+    "mean_reversion": {
+      "BTCUSDT": {
+        "total_return": -0.5437453843965394,
+        "max_drawdown": 0.33287895166020864,
+        "num_trades": 42,
+        "final_value": 456.2546156034606,
+        "trades": [
+          {
+            "type": "OPEN_LONG",
+            "price": 26946.496246401875
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 25074.42144769862,
+            "profit": -0.0694737743113163
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 25074.42144769862
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 23744.365302449794,
+            "profit": 0.05304434034592254
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 23744.365302449794
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 25446.108939297323,
+            "profit": 0.07166936724444485
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 25446.108939297323
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 24005.49398017127,
+            "profit": 0.05661435163084044
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 24005.49398017127
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 23699.911082108334,
+            "profit": -0.012729706721109405
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 23699.911082108334
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 22098.3972821668,
+            "profit": 0.06757467546578932
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 22098.3972821668
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 21758.300264386387,
+            "profit": -0.015390121439027033
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 21758.300264386387
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 23414.42350769031,
+            "profit": -0.07611455045570063
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 23414.42350769031
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 24794.95429768391,
+            "profit": 0.05896069956794689
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 24794.95429768391
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 23585.51784131287,
+            "profit": 0.04877752311420931
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 23585.51784131287
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 18831.509360070406,
+            "profit": -0.20156472769553727
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 18831.509360070406
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 17561.526116960096,
+            "profit": 0.06743926993994077
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 17561.526116960096
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 18513.76863537526,
+            "profit": 0.05422322138026115
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 18513.76863537526
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 17115.60216564842,
+            "profit": 0.07552035986100042
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 17115.60216564842
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 14209.092337493843,
+            "profit": -0.16981639325480688
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 14209.092337493843
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 14968.753563615484,
+            "profit": -0.053463036770977045
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 14968.753563615484
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 13150.566007006306,
+            "profit": -0.12146552810039193
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 13150.566007006306
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 12555.23118909181,
+            "profit": 0.04527066117133786
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 12555.23118909181
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 13055.3960960619,
+            "profit": 0.039837172206326404
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 13055.3960960619
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 12371.21737542752,
+            "profit": 0.052405818682189124
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 12371.21737542752
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 6260.44587181398,
+            "profit": -0.4939507017111456
+          }
+        ]
+      },
+      "ETHUSDT": {
+        "total_return": 0.2941668492881565,
+        "max_drawdown": 0.02279588101425081,
+        "num_trades": 28,
+        "final_value": 1294.1668492881565,
+        "trades": [
+          {
+            "type": "OPEN_SHORT",
+            "price": 12191.009565347076
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 11814.978388685966,
+            "profit": 0.030844957888473672
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 11814.978388685966
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 12114.752047967613,
+            "profit": 0.025372340889655016
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 12114.752047967613
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 11552.995219593315,
+            "profit": 0.046369651326750805
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 11552.995219593315
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 11995.593493257065,
+            "profit": 0.03831026199276233
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 11995.593493257065
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 12269.043615224675,
+            "profit": -0.022795881014250823
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 12269.043615224675
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 12274.425328568443,
+            "profit": 0.00043864163438865487
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 12274.425328568443
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 12252.340699556844,
+            "profit": 0.0017992393468879778
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 12252.340699556844
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 12442.03668679609,
+            "profit": 0.015482428369471191
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 12442.03668679609
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 11886.803520671743,
+            "profit": 0.044625585030912046
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 11886.803520671743
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 11799.110225464368,
+            "profit": -0.007377365584858186
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 11799.110225464368
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 11435.480249976421,
+            "profit": 0.030818423469184626
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 11435.480249976421
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 11922.618758348717,
+            "profit": 0.042598867535388434
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 11922.618758348717
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 11762.804471728734,
+            "profit": 0.013404293960844348
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 11762.804471728734
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 11802.066779743884,
+            "profit": 0.0033378356419606053
+          }
+        ]
+      },
+      "ADAUSDT": {
+        "total_return": -0.13901403392794215,
+        "max_drawdown": 0.15912605854811845,
+        "num_trades": 18,
+        "final_value": 860.9859660720579,
+        "trades": [
+          {
+            "type": "OPEN_LONG",
+            "price": 43147.86574012654
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 45086.02165278657,
+            "profit": 0.0449189288836039
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 45086.02165278657
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 45225.48280002567,
+            "profit": -0.003093223622902589
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 45225.48280002567
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 40710.58423040279,
+            "profit": -0.09983085398085159
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 40710.58423040279
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 39958.53427412573,
+            "profit": 0.018473081889977656
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 39958.53427412573
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 36763.10774635166,
+            "profit": -0.0799685620561711
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 36763.10774635166
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 36613.11455379886,
+            "profit": 0.004079992191837619
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 36613.11455379886
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 38099.325608404615,
+            "profit": 0.04059231433102834
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 38099.325608404615
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 36930.17646378877,
+            "profit": 0.030686872430044684
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 36930.17646378877
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 33603.7924112788,
+            "profit": -0.09007224906633178
+          }
+        ]
+      },
+      "SOLUSDT": {
+        "total_return": -0.8466744298366636,
+        "max_drawdown": 0.8422201072744991,
+        "num_trades": 22,
+        "final_value": 153.32557016333638,
+        "trades": [
+          {
+            "type": "OPEN_LONG",
+            "price": 30197.00527478175
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 27100.895225392866,
+            "profit": -0.10253036753861552
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 27100.895225392866
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 29837.880368397324,
+            "profit": -0.10099242553581667
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 29837.880368397324
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 7430.463295176707,
+            "profit": -0.7509721466995809
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 7430.463295176707
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 8970.62643372769,
+            "profit": -0.20727686516542512
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 8970.62643372769
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 9379.52830314312,
+            "profit": 0.04558230937786519
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 9379.52830314312
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 8861.62576603844,
+            "profit": 0.05521626678509297
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 8861.62576603844
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 8633.870471981923,
+            "profit": -0.02570129906967779
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 8633.870471981923
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 7935.853891001965,
+            "profit": 0.0808463114248837
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 7935.853891001965
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 7719.61216978388,
+            "profit": -0.027248702431791255
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 7719.61216978388
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 8673.146706743339,
+            "profit": -0.12352104172950365
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 8673.146706743339
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 8428.292990636297,
+            "profit": -0.028231243444397043
+          }
+        ]
+      },
+      "DOTUSDT": {
+        "total_return": -0.7804488396757022,
+        "max_drawdown": 0.8050046677918506,
+        "num_trades": 34,
+        "final_value": 219.5511603242978,
+        "trades": [
+          {
+            "type": "OPEN_SHORT",
+            "price": 58510.07314646122
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 77289.06954004914,
+            "profit": -0.32095322025287376
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 77289.06954004914
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 51472.627704892795,
+            "profit": -0.3340244874054144
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 51472.627704892795
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 48651.116215191505,
+            "profit": 0.054815765495358375
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 48651.116215191505
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 51979.12923445154,
+            "profit": 0.06840568682000452
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 51979.12923445154
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 49109.40649569751,
+            "profit": 0.055209134531864885
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 49109.40649569751
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 37122.71365344101,
+            "profit": -0.24408140308734255
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 37122.71365344101
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 40419.13995034316,
+            "profit": -0.08879809616494984
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 40419.13995034316
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 43713.933382627714,
+            "profit": 0.08151567391914734
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 43713.933382627714
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 42076.799433948545,
+            "profit": 0.03745107845476518
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 42076.799433948545
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 19763.75684080644,
+            "profit": -0.530293246951179
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 19763.75684080644
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 18440.75127483758,
+            "profit": 0.06694099591618305
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 18440.75127483758
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 18257.036314005247,
+            "profit": -0.009962444484732763
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 18257.036314005247
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 19250.279390505842,
+            "profit": -0.05440330289197398
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 19250.279390505842
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 20815.060381274674,
+            "profit": 0.08128614442554923
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 20815.060381274674
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 20146.998731726348,
+            "profit": 0.03209510985369602
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 20146.998731726348
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 21277.260352843885,
+            "profit": 0.056100744143973445
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 21277.260352843885
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 22228.071358108133,
+            "profit": -0.044686721386908435
+          }
+        ]
+      }
+    },
+    "breakout": {
+      "BTCUSDT": {
+        "total_return": 1.0442673246289462,
+        "max_drawdown": 0.13058350075228506,
+        "num_trades": 18,
+        "final_value": 2044.2673246289462,
+        "trades": [
+          {
+            "type": "OPEN_LONG",
+            "price": 42657.32019909824
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 45550.520190177944,
+            "profit": 0.06782423222030866
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 45550.520190177944
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 21608.44080700713,
+            "profit": 0.5256159377150965
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 21608.44080700713
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 25036.69004278955,
+            "profit": 0.15865324418366714
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 25036.69004278955
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 27460.22219208341,
+            "profit": -0.09679922326600941
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 27460.22219208341
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 32182.816492011843,
+            "profit": 0.17197946421897217
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 32182.816492011843
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 29353.56681140507,
+            "profit": 0.08791181099109288
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 29353.56681140507
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 28337.001795245964,
+            "profit": -0.034631737352073005
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 28337.001795245964
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 31153.528292886218,
+            "profit": -0.09939394851973284
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 31153.528292886218
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 33699.27688367089,
+            "profit": 0.08171622061074817
+          }
+        ]
+      },
+      "ETHUSDT": {
+        "total_return": 0.7062950143887324,
+        "max_drawdown": 0.23676369057791533,
+        "num_trades": 24,
+        "final_value": 1706.2950143887324,
+        "trades": [
+          {
+            "type": "OPEN_LONG",
+            "price": 27792.89695911488
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 32146.646389105765,
+            "profit": 0.15664971652273332
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 32146.646389105765
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 24240.030654276914,
+            "profit": 0.2459546056259336
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 24240.030654276914
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 23123.31888596956,
+            "profit": -0.0460689090799612
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 23123.31888596956
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 27604.5630374948,
+            "profit": -0.1937976193479868
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 27604.5630374948
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 30838.942570461928,
+            "profit": 0.11716829310335124
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 30838.942570461928
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 30170.056427465068,
+            "profit": 0.021689658828883802
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 30170.056427465068
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 29658.136451912902,
+            "profit": -0.016967816310948083
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 29658.136451912902
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 33083.967104507545,
+            "profit": -0.11551065112095679
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 33083.967104507545
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 34120.37225019971,
+            "profit": 0.03132650756235822
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 34120.37225019971
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 33816.745602353876,
+            "profit": 0.008898690952706635
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 33816.745602353876
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 33428.88462919774,
+            "profit": -0.011469494365807322
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 33428.88462919774
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 16440.52604923516,
+            "profit": 0.5081939995426729
+          }
+        ]
+      },
+      "ADAUSDT": {
+        "total_return": 0.04462359000573088,
+        "max_drawdown": 0.4359171955105792,
+        "num_trades": 22,
+        "final_value": 1044.6235900057309,
+        "trades": [
+          {
+            "type": "OPEN_LONG",
+            "price": 46282.46277269121
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 53392.589706741805,
+            "profit": 0.15362464545093094
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 53392.589706741805
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 30800.816247083807,
+            "profit": 0.4231256356686023
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 30800.816247083807
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 35402.42322558357,
+            "profit": 0.14939886467896563
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 35402.42322558357
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 37982.63272986272,
+            "profit": -0.07288228514297197
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 37982.63272986272
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 33567.25396057405,
+            "profit": -0.11624730704402193
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 33567.25396057405
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 37532.875485170356,
+            "profit": -0.11813958714806007
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 37532.875485170356
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 34648.507093411354,
+            "profit": -0.07684911839218521
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 34648.507093411354
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 36543.49728861202,
+            "profit": -0.05469182813827539
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 36543.49728861202
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 37756.94274378423,
+            "profit": 0.03320550974058938
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 37756.94274378423
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 42821.892972205256,
+            "profit": -0.13414619564913915
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 42821.892972205256
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 42024.668710091704,
+            "profit": -0.018617212056249187
+          }
+        ]
+      },
+      "SOLUSDT": {
+        "total_return": -0.23456724798792028,
+        "max_drawdown": 0.33304519584996045,
+        "num_trades": 26,
+        "final_value": 765.4327520120797,
+        "trades": [
+          {
+            "type": "OPEN_LONG",
+            "price": 36210.74763284137
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 35241.02381741689,
+            "profit": -0.02677999982924918
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 35241.02381741689
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 37208.64482607256,
+            "profit": -0.055833253280321155
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 37208.64482607256
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 35474.18255196616,
+            "profit": -0.0466144973087287
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 35474.18255196616
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 37113.44295824129,
+            "profit": -0.04620995575793129
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 37113.44295824129
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 35431.25302723872,
+            "profit": -0.0453256231952209
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 35431.25302723872
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 36911.797640115255,
+            "profit": -0.04178640286129097
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 36911.797640115255
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 36076.97018388785,
+            "profit": -0.022616819271899194
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 36076.97018388785
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 38339.59625884846,
+            "profit": -0.06271663233990496
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 38339.59625884846
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 40073.16425026591,
+            "profit": 0.04521612537892477
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 40073.16425026591
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 42350.49336116954,
+            "profit": -0.0568292809791909
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 42350.49336116954
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 40918.90906507451,
+            "profit": -0.03380324956043182
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 40918.90906507451
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 36156.075192918244,
+            "profit": 0.11639689280527488
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 36156.075192918244
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 37168.35135826694,
+            "profit": 0.027997401818297102
+          }
+        ]
+      },
+      "DOTUSDT": {
+        "total_return": -0.4375586944256737,
+        "max_drawdown": 0.46369243802418125,
+        "num_trades": 32,
+        "final_value": 562.4413055743263,
+        "trades": [
+          {
+            "type": "OPEN_SHORT",
+            "price": 44098.66186737786
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 46098.119987506645,
+            "profit": -0.04534056217265617
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 46098.119987506645
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 50108.629151315254,
+            "profit": 0.08699940832501463
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 50108.629151315254
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 53116.93225972085,
+            "profit": -0.060035629777883
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 53116.93225972085
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 48236.60656668615,
+            "profit": -0.0918789072601527
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 48236.60656668615
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 51326.29941159976,
+            "profit": -0.06405286492618778
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 51326.29941159976
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 49497.06262971393,
+            "profit": -0.035639366228542434
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 49497.06262971393
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 47657.91271069341,
+            "profit": 0.03715674873030644
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 47657.91271069341
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 44934.97026862352,
+            "profit": -0.05713515945609013
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 44934.97026862352
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 48818.06721931736,
+            "profit": -0.08641592344404575
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 48818.06721931736
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 48173.93817589045,
+            "profit": -0.013194480652688106
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 48173.93817589045
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 49871.52059937235,
+            "profit": -0.03523860593011447
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 49871.52059937235
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 46967.32375881701,
+            "profit": -0.05823357310247909
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 46967.32375881701
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 48625.98951851586,
+            "profit": -0.03531531343400157
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 48625.98951851586
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 45769.60789916739,
+            "profit": -0.05874187132502077
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 45769.60789916739
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 47735.193669965614,
+            "profit": -0.04294521760222416
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 47735.193669965614
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 48241.877099634825,
+            "profit": 0.010614462636777974
+          }
+        ]
+      }
+    },
+    "trend_following": {
+      "BTCUSDT": {
+        "total_return": 1.0472441886111,
+        "max_drawdown": 0.22437318072647722,
+        "num_trades": 42,
+        "final_value": 2047.2441886110998,
+        "trades": [
+          {
+            "type": "OPEN_LONG",
+            "price": 20498.02846933622
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 21898.43794651271,
+            "profit": 0.06831922783556556
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 21898.43794651271
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 18483.852077742245,
+            "profit": 0.1559282847986987
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 18483.852077742245
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 19944.895250926675,
+            "profit": 0.07904430131984111
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 19944.895250926675
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 20885.789626154525,
+            "profit": -0.04717469625136961
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 20885.789626154525
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 24081.26701149904,
+            "profit": 0.15299768132026637
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 24081.26701149904
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 26887.591138581123,
+            "profit": -0.11653556790604234
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 26887.591138581123
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 24858.962607735797,
+            "profit": -0.07544850412183032
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 24858.962607735797
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 21573.477957409454,
+            "profit": 0.13216499425860764
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 21573.477957409454
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 19743.664887565697,
+            "profit": -0.08481771337269721
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 19743.664887565697
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 18605.18791657291,
+            "profit": 0.057662899845397186
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 18605.18791657291
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 17880.223949160827,
+            "profit": -0.038965689068171654
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 17880.223949160827
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 19639.072016955764,
+            "profit": -0.09836834666030486
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 19639.072016955764
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 24308.83775238514,
+            "profit": 0.2377793477918736
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 24308.83775238514
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 22908.244532731103,
+            "profit": 0.0576166262624635
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 22908.244532731103
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 29803.024925266498,
+            "profit": 0.300973755657453
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 29803.024925266498
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 25343.380840877173,
+            "profit": 0.1496372967365643
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 25343.380840877173
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 23143.142605698937,
+            "profit": -0.08681707657683144
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 23143.142605698937
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 25976.800422673383,
+            "profit": -0.12244049415642738
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 25976.800422673383
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 27640.32551559553,
+            "profit": 0.06403887568347985
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 27640.32551559553
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 28809.724820333162,
+            "profit": -0.0423077255033708
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 28809.724820333162
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 32488.09855587634,
+            "profit": 0.12767819750041748
+          }
+        ]
+      },
+      "ETHUSDT": {
+        "total_return": 0.5084707683980464,
+        "max_drawdown": 0.06802881107239724,
+        "num_trades": 34,
+        "final_value": 1508.4707683980464,
+        "trades": [
+          {
+            "type": "OPEN_SHORT",
+            "price": 18973.38460529663
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 19497.229909305795,
+            "profit": -0.027609481118246508
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 19497.229909305795
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 21191.87015577323,
+            "profit": 0.086916975095965
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 21191.87015577323
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 21326.117053785663,
+            "profit": -0.006334830150696246
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 21326.117053785663
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 21082.123995757276,
+            "profit": -0.011441044678364232
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 21082.123995757276
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 15757.746167945259,
+            "profit": 0.25255414629396616
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 15757.746167945259
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 15484.580490409335,
+            "profit": -0.01733532667835478
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 15484.580490409335
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 16283.39554985935,
+            "profit": -0.051587775332032786
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 16283.39554985935
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 16795.88212136577,
+            "profit": 0.03147295476162805
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 16795.88212136577
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 17061.23730385384,
+            "profit": -0.015798823817090055
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 17061.23730385384
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 19149.164821544222,
+            "profit": 0.12237843484064055
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 19149.164821544222
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 18957.275054791065,
+            "profit": 0.010020790386495932
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 18957.275054791065
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 19143.121510143974,
+            "profit": 0.009803437193149734
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 19143.121510143974
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 19861.98430122302,
+            "profit": -0.03755201526031786
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 19861.98430122302
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 20708.419890009434,
+            "profit": 0.04261586234031485
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 20708.419890009434
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 21258.283393631365,
+            "profit": -0.02655265377766496
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 21258.283393631365
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 22215.197578962245,
+            "profit": 0.04501370913220374
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 22215.197578962245
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 21121.370100362812,
+            "profit": 0.04923780104640102
+          }
+        ]
+      },
+      "ADAUSDT": {
+        "total_return": -0.3302555970135056,
+        "max_drawdown": 0.43728871196789815,
+        "num_trades": 56,
+        "final_value": 669.7444029864944,
+        "trades": [
+          {
+            "type": "OPEN_LONG",
+            "price": 2850.2610828184447
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 2772.123484674292,
+            "profit": -0.027414189743940057
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 2772.123484674292
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 3009.3422596772525,
+            "profit": -0.08557294662897476
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 3009.3422596772525
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 3112.598193245927,
+            "profit": 0.034311794624433546
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 3112.598193245927
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 3259.3310766576224,
+            "profit": -0.04714160784713332
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 3259.3310766576224
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 3012.327259093643,
+            "profit": -0.0757835923244952
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 3012.327259093643
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 3234.881984812977,
+            "profit": -0.07388132383275538
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 3234.881984812977
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 3112.8908218566603,
+            "profit": -0.03771116335280142
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 3112.8908218566603
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 3236.498847474797,
+            "profit": -0.03970843588546149
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 3236.498847474797
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 3072.1798209070166,
+            "profit": -0.050770611797370635
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 3072.1798209070166
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 2965.736322516396,
+            "profit": 0.034647548189153485
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 2965.736322516396
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 2829.8689731496147,
+            "profit": -0.045812349646612925
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 2829.8689731496147
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 2897.2905672749603,
+            "profit": -0.02382498792878952
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 2897.2905672749603
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 3055.049772597039,
+            "profit": 0.05445059846740149
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 3055.049772597039
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 3089.74970156821,
+            "profit": -0.011358220505086381
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 3089.74970156821
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 3295.544220549412,
+            "profit": 0.06660556318744854
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 3295.544220549412
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 3215.2106609543,
+            "profit": 0.024376416827967613
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 3215.2106609543
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 3040.6850427145087,
+            "profit": -0.054281238974242065
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 3040.6850427145087
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 3206.231157757273,
+            "profit": -0.054443690391220746
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 3206.231157757273
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 3309.484278090128,
+            "profit": 0.03220389150140985
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 3309.484278090128
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 3505.9433605246354,
+            "profit": -0.05936244620804846
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 3505.9433605246354
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 3661.5464062708056,
+            "profit": 0.04438264676440338
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 3661.5464062708056
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 3902.5677029807816,
+            "profit": -0.06582500123368647
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 3902.5677029807816
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 3588.819084296597,
+            "profit": -0.08039543258776613
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 3588.819084296597
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 3158.6752552734174,
+            "profit": 0.11985664891979
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 3158.6752552734174
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 3185.7632291872383,
+            "profit": 0.00857573879068366
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 3185.7632291872383
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 3280.1389527535384,
+            "profit": -0.029624211461056253
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 3280.1389527535384
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 3430.9155970891707,
+            "profit": 0.04596654181648664
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 3430.9155970891707
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 3299.741873724689,
+            "profit": 0.03823286223530857
+          }
+        ]
+      },
+      "SOLUSDT": {
+        "total_return": -0.08527036515898204,
+        "max_drawdown": 0.5387144173916101,
+        "num_trades": 54,
+        "final_value": 914.729634841018,
+        "trades": [
+          {
+            "type": "OPEN_LONG",
+            "price": 9893.832395387337
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 9308.641055810953,
+            "profit": -0.05914708438453128
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 9308.641055810953
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 10111.940662084164,
+            "profit": -0.0862961200734825
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 10111.940662084164
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 9933.23791970353,
+            "profit": -0.017672447688572734
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 9933.23791970353
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 8126.251574233497,
+            "profit": 0.18191312440888
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 8126.251574233497
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 9605.541303298956,
+            "profit": 0.18203838701670913
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 9605.541303298956
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 10580.826951602134,
+            "profit": -0.10153364787138257
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 10580.826951602134
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 9880.852246030561,
+            "profit": -0.0661550093176397
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 9880.852246030561
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 9823.283162497808,
+            "profit": 0.005826327739682623
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 9823.283162497808
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 8807.488990099931,
+            "profit": -0.10340678931824523
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 8807.488990099931
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 9023.417404910324,
+            "profit": -0.024516455831293922
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 9023.417404910324
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 10226.961634189629,
+            "profit": 0.1333800904105761
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 10226.961634189629
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 8317.210742465457,
+            "profit": 0.18673687846248563
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 8317.210742465457
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 9000.26717764764,
+            "profit": 0.08212566163493723
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 9000.26717764764
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 9046.76250238716,
+            "profit": -0.005165993833493381
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 9046.76250238716
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 10176.508126341007,
+            "profit": 0.12487844393568871
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 10176.508126341007
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 8801.720874166598,
+            "profit": 0.13509420275663037
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 8801.720874166598
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 7496.380627016038,
+            "profit": -0.14830511735287882
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 7496.380627016038
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 9055.031196557336,
+            "profit": -0.20792041480979676
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 9055.031196557336
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 8111.279843791117,
+            "profit": -0.10422397585168205
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 8111.279843791117
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 8115.605137540009,
+            "profit": -0.0005332443007996099
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 8115.605137540009
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 6638.425415052888,
+            "profit": -0.1820171998825071
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 6638.425415052888
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 6342.281375747937,
+            "profit": 0.04461058470784842
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 6342.281375747937
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 6628.446035033548,
+            "profit": 0.04512014562770222
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 6628.446035033548
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 7481.449181972156,
+            "profit": -0.1286882539935005
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 7481.449181972156
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 7343.389839843296,
+            "profit": -0.01845355609198526
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 7343.389839843296
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 6328.190395403866,
+            "profit": 0.13824670439409673
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 6328.190395403866
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 6847.854105826511,
+            "profit": 0.08211884882605207
+          }
+        ]
+      },
+      "DOTUSDT": {
+        "total_return": -0.044535735560457285,
+        "max_drawdown": 0.197327116727671,
+        "num_trades": 42,
+        "final_value": 955.4642644395427,
+        "trades": [
+          {
+            "type": "OPEN_LONG",
+            "price": 18835.84424205756
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 19261.075770292613,
+            "profit": 0.02257565537124037
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 19261.075770292613
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 19931.276713927826,
+            "profit": -0.03479561326833569
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 19931.276713927826
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 19044.077778749084,
+            "profit": -0.04451290039833593
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 19044.077778749084
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 19839.29460913899,
+            "profit": -0.04175664684993422
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 19839.29460913899
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 18906.373089135333,
+            "profit": -0.047023925919921813
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 18906.373089135333
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 19793.156905374297,
+            "profit": -0.04690396259812303
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 19793.156905374297
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 23915.257096245026,
+            "profit": 0.20825885484449852
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 23915.257096245026
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 24112.011068796364,
+            "profit": -0.00822713181629273
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 24112.011068796364
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 23293.27212794891,
+            "profit": -0.03395564718809354
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 23293.27212794891
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 24258.276333295635,
+            "profit": -0.041428451960119676
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 24258.276333295635
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 23321.059912116663,
+            "profit": -0.03863491405168789
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 23321.059912116663
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 20302.77830989809,
+            "profit": 0.12942300279630076
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 20302.77830989809
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 20092.550180324986,
+            "profit": -0.01035464833256901
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 20092.550180324986
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 20399.42823698045,
+            "profit": -0.015273225842479877
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 20399.42823698045
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 19707.81551356782,
+            "profit": -0.03390353471568683
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 19707.81551356782
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 19620.580547271853,
+            "profit": 0.0044264148015750885
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 19620.580547271853
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 20300.89226798243,
+            "profit": 0.03467337365841465
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 20300.89226798243
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 20580.93053657773,
+            "profit": -0.01379438228126356
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 20580.93053657773
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 20390.45293560652,
+            "profit": -0.009255052906022831
+          },
+          {
+            "type": "OPEN_SHORT",
+            "price": 20390.45293560652
+          },
+          {
+            "type": "CLOSE_SHORT",
+            "price": 21091.919683915097,
+            "profit": -0.034401724695563296
+          },
+          {
+            "type": "OPEN_LONG",
+            "price": 21091.919683915097
+          },
+          {
+            "type": "CLOSE_LONG",
+            "price": 22074.693671800902,
+            "profit": 0.04659480988993513
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "start_time": "2025-11-12T19:44:49.641526",
+  "total_symbols_tested": 5,
+  "symbols_with_signals": 5,
+  "would_trade_count": 0,
+  "avg_confidence": 0.5700000000000001,
+  "test_results": [
+    {
+      "symbol": "EURUSDm",
+      "timestamp": "2025-11-12 19:44:49.641526",
+      "current_price": 1.15912,
+      "spread": 48,
+      "filters_passed": [
+        "\u2139\ufe0f Volume normal: 0.26x"
+      ],
+      "filters_failed": [
+        "\u274c Spread alto: 48 pts",
+        "\u274c Volatilidade fora: 0.000285",
+        "\u274c Diverg\u00eancia M5/H1: M5=baixa, H1=alta"
+      ],
+      "signals_generated": [
+        "\u26aa RSI Normal: 58.6",
+        "\ud83d\udfe2 Tend\u00eancia Alta"
+      ],
+      "confidence_scores": [
+        0.5,
+        0.7
+      ],
+      "final_confidence": 0.6,
+      "final_signal": "HOLD"
+    },
+    {
+      "symbol": "GBPUSDm",
+      "timestamp": "2025-11-12 19:44:50.900440",
+      "current_price": 1.313045,
+      "spread": 29,
+      "filters_passed": [
+        "\u2139\ufe0f Volume normal: 0.34x",
+        "\u2705 Conflu\u00eancia M5/H1: alta"
+      ],
+      "filters_failed": [
+        "\u274c Spread alto: 29 pts",
+        "\u274c Volatilidade fora: 0.000452"
+      ],
+      "signals_generated": [
+        "\u26aa RSI Normal: 43.8",
+        "\u26aa Tend\u00eancia Neutra"
+      ],
+      "confidence_scores": [
+        0.5,
+        0.4,
+        0.9
+      ],
+      "final_confidence": 0.6,
+      "final_signal": "HOLD"
+    },
+    {
+      "symbol": "USDJPYm",
+      "timestamp": "2025-11-12 19:44:51.948473",
+      "current_price": 154.755,
+      "spread": 38,
+      "filters_passed": [
+        "\u2139\ufe0f Volume normal: 0.26x",
+        "\u2705 Conflu\u00eancia M5/H1: alta"
+      ],
+      "filters_failed": [
+        "\u274c Spread alto: 38 pts",
+        "\u274c Volatilidade fora: 0.000354"
+      ],
+      "signals_generated": [
+        "\u26aa RSI Normal: 54.4",
+        "\u26aa Tend\u00eancia Neutra"
+      ],
+      "confidence_scores": [
+        0.5,
+        0.4,
+        0.9
+      ],
+      "final_confidence": 0.6,
+      "final_signal": "HOLD"
+    },
+    {
+      "symbol": "AUDUSDm",
+      "timestamp": "2025-11-12 19:44:53.099669",
+      "current_price": 0.654085,
+      "spread": 49,
+      "filters_passed": [
+        "\u2139\ufe0f Volume normal: 0.59x"
+      ],
+      "filters_failed": [
+        "\u274c Spread alto: 49 pts",
+        "\u274c Volatilidade fora: 0.000310",
+        "\u274c Diverg\u00eancia M5/H1: M5=baixa, H1=alta"
+      ],
+      "signals_generated": [
+        "\ud83d\udfe2 RSI Oversold: 29.8",
+        "\u26aa Tend\u00eancia Neutra"
+      ],
+      "confidence_scores": [
+        0.8,
+        0.4
+      ],
+      "final_confidence": 0.6000000000000001,
+      "final_signal": "HOLD"
+    },
+    {
+      "symbol": "USDCHFm",
+      "timestamp": "2025-11-12 19:44:54.284212",
+      "current_price": 0.797825,
+      "spread": 21,
+      "filters_passed": [
+        "\u2139\ufe0f Volume normal: 0.66x"
+      ],
+      "filters_failed": [
+        "\u274c Spread alto: 21 pts",
+        "\u274c Volatilidade fora: 0.000323",
+        "\u274c Diverg\u00eancia M5/H1: M5=alta, H1=baixa"
+      ],
+      "signals_generated": [
+        "\u26aa RSI Normal: 56.4",
+        "\u26aa Tend\u00eancia Neutra"
+      ],
+      "confidence_scores": [
+        0.5,
+        0.4
+      ],
+      "final_confidence": 0.45,
+      "final_signal": "HOLD"
+    }
+  ],
+  "simulated_trades": [
+    {
+      "status": "NO_TRADE",
+      "symbol": "EURUSDm",
+      "signal": "HOLD",
+      "confidence": 0.6,
+      "reason": "Confian\u00e7a baixa ou sinal HOLD"
+    },
+    {
+      "status": "NO_TRADE",
+      "symbol": "GBPUSDm",
+      "signal": "HOLD",
+      "confidence": 0.6,
+      "reason": "Confian\u00e7a baixa ou sinal HOLD"
+    },
+    {
+      "status": "NO_TRADE",
+      "symbol": "USDJPYm",
+      "signal": "HOLD",
+      "confidence": 0.6,
+      "reason": "Confian\u00e7a baixa ou sinal HOLD"
+    },
+    {
+      "status": "NO_TRADE",
+      "symbol": "AUDUSDm",
+      "signal": "HOLD",
+      "confidence": 0.6000000000000001,
+      "reason": "Confian\u00e7a baixa ou sinal HOLD"
+    },
+    {
+      "status": "NO_TRADE",
+      "symbol": "USDCHFm",
+      "signal": "HOLD",
+      "confidence": 0.45,
+      "reason": "Confian\u00e7a baixa ou sinal HOLD"
+    }
+  ],
+  "end_time": "2025-11-12T19:44:55.418669",
+  "duration": "0:00:05.777143"
+}

@@ -1,0 +1,7 @@
+-- Add missing columns to customers table
+ALTER TABLE customers 
+ADD COLUMN IF NOT EXISTS neighborhood TEXT,
+ADD COLUMN IF NOT EXISTS city TEXT,
+ADD COLUMN IF NOT EXISTS state TEXT,
+ADD COLUMN IF NOT EXISTS zipCode TEXT,
+ADD COLUMN IF NOT EXISTS birthDate DATE;

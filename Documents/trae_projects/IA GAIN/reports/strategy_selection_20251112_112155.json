@@ -1,0 +1,215 @@
+{
+  "EUR/USD": {
+    "strategies": [
+      {
+        "strategy": "MOMENTUM",
+        "trades": 5,
+        "total_return": 0.07207817333695987,
+        "sharpe": 5.818902239543644,
+        "win_rate": 0.6,
+        "score": 1.901709758531573,
+        "normalized_score": 0.0
+      },
+      {
+        "strategy": "TREND_FOLLOWING",
+        "trades": 4,
+        "total_return": 0.1463736253315463,
+        "sharpe": 11.570402275376635,
+        "win_rate": 0.75,
+        "score": 3.6943074952787636,
+        "normalized_score": 1.0
+      }
+    ],
+    "best": {
+      "strategy": "TREND_FOLLOWING",
+      "trades": 4,
+      "total_return": 0.1463736253315463,
+      "sharpe": 11.570402275376635,
+      "win_rate": 0.75,
+      "score": 3.6943074952787636,
+      "normalized_score": 1.0
+    }
+  },
+  "GBP/USD": {
+    "strategies": [
+      {
+        "strategy": "MOMENTUM",
+        "trades": 4,
+        "total_return": 0.130068982853762,
+        "sharpe": 9.800662343264603,
+        "win_rate": 0.75,
+        "score": 3.155233194406262,
+        "normalized_score": 0.5155132756528844
+      },
+      {
+        "strategy": "MEAN_REVERSION",
+        "trades": 1,
+        "total_return": 0.05692490142623563,
+        "sharpe": 7.4145886025119925,
+        "win_rate": 1.0,
+        "score": 2.4528390314667154,
+        "normalized_score": 0.0
+      },
+      {
+        "strategy": "TREND_FOLLOWING",
+        "trades": 3,
+        "total_return": 0.14772728919577505,
+        "sharpe": 11.804965319138315,
+        "win_rate": 1.0,
+        "score": 3.815353240339382,
+        "normalized_score": 1.0
+      }
+    ],
+    "best": {
+      "strategy": "TREND_FOLLOWING",
+      "trades": 3,
+      "total_return": 0.14772728919577505,
+      "sharpe": 11.804965319138315,
+      "win_rate": 1.0,
+      "score": 3.815353240339382,
+      "normalized_score": 1.0
+    }
+  },
+  "USD/JPY": {
+    "strategies": [
+      {
+        "strategy": "MOMENTUM",
+        "trades": 6,
+        "total_return": 0.13910239525084922,
+        "sharpe": 10.369457667578995,
+        "win_rate": 0.6666666666666666,
+        "score": 3.3137218312324563,
+        "normalized_score": 0.0
+      },
+      {
+        "strategy": "TREND_FOLLOWING",
+        "trades": 3,
+        "total_return": 0.14703313410121832,
+        "sharpe": 11.246636374397228,
+        "win_rate": 1.0,
+        "score": 3.6475074793697777,
+        "normalized_score": 1.0
+      }
+    ],
+    "best": {
+      "strategy": "TREND_FOLLOWING",
+      "trades": 3,
+      "total_return": 0.14703313410121832,
+      "sharpe": 11.246636374397228,
+      "win_rate": 1.0,
+      "score": 3.6475074793697777,
+      "normalized_score": 1.0
+    }
+  },
+  "USD/CHF": {
+    "strategies": [
+      {
+        "strategy": "MOMENTUM",
+        "trades": 7,
+        "total_return": 0.12364156428783202,
+        "sharpe": 8.869212680641176,
+        "win_rate": 0.5714285714285714,
+        "score": 2.836870300621983,
+        "normalized_score": 0.7422924070598661
+      },
+      {
+        "strategy": "MEAN_REVERSION",
+        "trades": 1,
+        "total_return": 0.011458474360720672,
+        "sharpe": 0.886531448763158,
+        "win_rate": 1.0,
+        "score": 0.47168867180930774,
+        "normalized_score": 0.0
+      },
+      {
+        "strategy": "TREND_FOLLOWING",
+        "trades": 4,
+        "total_return": 0.14823546885948635,
+        "sharpe": 11.446305308597193,
+        "win_rate": 0.75,
+        "score": 3.6580093270089007,
+        "normalized_score": 1.0
+      }
+    ],
+    "best": {
+      "strategy": "TREND_FOLLOWING",
+      "trades": 4,
+      "total_return": 0.14823546885948635,
+      "sharpe": 11.446305308597193,
+      "win_rate": 0.75,
+      "score": 3.6580093270089007,
+      "normalized_score": 1.0
+    }
+  },
+  "AUD/USD": {
+    "strategies": [
+      {
+        "strategy": "MOMENTUM",
+        "trades": 5,
+        "total_return": 0.14232565717097423,
+        "sharpe": 10.549501739896607,
+        "win_rate": 0.8,
+        "score": 3.3960133505544694,
+        "normalized_score": 0.9156991738983479
+      },
+      {
+        "strategy": "MEAN_REVERSION",
+        "trades": 1,
+        "total_return": 0.009745037771303422,
+        "sharpe": 0.7528784626757282,
+        "win_rate": 1.0,
+        "score": 0.4307360576883702,
+        "normalized_score": 0.0
+      },
+      {
+        "strategy": "TREND_FOLLOWING",
+        "trades": 4,
+        "total_return": 0.14924261737009903,
+        "sharpe": 11.314601738797803,
+        "win_rate": 1.0,
+        "score": 3.6690018303243908,
+        "normalized_score": 1.0
+      }
+    ],
+    "best": {
+      "strategy": "TREND_FOLLOWING",
+      "trades": 4,
+      "total_return": 0.14924261737009903,
+      "sharpe": 11.314601738797803,
+      "win_rate": 1.0,
+      "score": 3.6690018303243908,
+      "normalized_score": 1.0
+    }
+  },
+  "USD/CAD": {
+    "strategies": [
+      {
+        "strategy": "MOMENTUM",
+        "trades": 7,
+        "total_return": 0.1483878640095121,
+        "sharpe": 11.295349716799802,
+        "win_rate": 0.8571428571428571,
+        "score": 3.6342274184732677,
+        "normalized_score": 0.0
+      },
+      {
+        "strategy": "TREND_FOLLOWING",
+        "trades": 5,
+        "total_return": 0.15211369893813897,
+        "sharpe": 11.731466063984932,
+        "win_rate": 1.0,
+        "score": 3.7954966686645495,
+        "normalized_score": 1.0
+      }
+    ],
+    "best": {
+      "strategy": "TREND_FOLLOWING",
+      "trades": 5,
+      "total_return": 0.15211369893813897,
+      "sharpe": 11.731466063984932,
+      "win_rate": 1.0,
+      "score": 3.7954966686645495,
+      "normalized_score": 1.0
+    }
+  }
+}

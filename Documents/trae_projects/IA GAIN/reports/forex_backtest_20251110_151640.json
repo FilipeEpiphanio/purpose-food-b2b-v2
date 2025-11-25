@@ -1,0 +1,251 @@
+{
+  "timestamp": "2025-11-10T15:16:40.815200",
+  "period_days": 30,
+  "account_balance": 10000.0,
+  "risk_per_trade": 0.02,
+  "max_portfolio_risk": 0.1,
+  "best_overall": {
+    "strategy": "trend_following",
+    "symbol": "NZD/USD",
+    "return_pct": 6.934201467256426
+  },
+  "best_per_strategy": {
+    "momentum": {
+      "symbol": "EUR/USD",
+      "return_pct": 0.0,
+      "num_trades": 0
+    },
+    "mean_reversion": {
+      "symbol": "EUR/USD",
+      "return_pct": 0.0,
+      "num_trades": 0
+    },
+    "breakout": {
+      "symbol": "EUR/USD",
+      "return_pct": 0.0,
+      "num_trades": 0
+    },
+    "trend_following": {
+      "symbol": "NZD/USD",
+      "return_pct": 6.934201467256426,
+      "num_trades": 5
+    }
+  },
+  "results": {
+    "momentum": {
+      "EUR/USD": {
+        "symbol": "EUR/USD",
+        "strategy": "momentum",
+        "trades": [],
+        "num_trades": 0,
+        "equity_final": 10000.0,
+        "return_pct": 0.0,
+        "max_drawdown_pct": 0.0
+      },
+      "GBP/USD": {
+        "symbol": "GBP/USD",
+        "strategy": "momentum",
+        "trades": [],
+        "num_trades": 0,
+        "equity_final": 10000.0,
+        "return_pct": 0.0,
+        "max_drawdown_pct": 0.0
+      },
+      "USD/JPY": {
+        "symbol": "USD/JPY",
+        "strategy": "momentum",
+        "trades": [],
+        "num_trades": 0,
+        "equity_final": 10000.0,
+        "return_pct": 0.0,
+        "max_drawdown_pct": 0.0
+      },
+      "USD/CHF": {
+        "symbol": "USD/CHF",
+        "strategy": "momentum",
+        "trades": [],
+        "num_trades": 0,
+        "equity_final": 10000.0,
+        "return_pct": 0.0,
+        "max_drawdown_pct": 0.0
+      },
+      "AUD/USD": {
+        "symbol": "AUD/USD",
+        "strategy": "momentum",
+        "trades": [],
+        "num_trades": 0,
+        "equity_final": 10000.0,
+        "return_pct": 0.0,
+        "max_drawdown_pct": 0.0
+      },
+      "USD/CAD": {
+        "symbol": "USD/CAD",
+        "strategy": "momentum",
+        "trades": [],
+        "num_trades": 0,
+        "equity_final": 10000.0,
+        "return_pct": 0.0,
+        "max_drawdown_pct": 0.0
+      },
+      "NZD/USD": {
+        "symbol": "NZD/USD",
+        "strategy": "momentum",
+        "trades": [],
+        "num_trades": 0,
+        "equity_final": 10000.0,
+        "return_pct": 0.0,
+        "max_drawdown_pct": 0.0
+      }
+    },
+    "mean_reversion": {
+      "EUR/USD": {
+        "symbol": "EUR/USD",
+        "strategy": "mean_reversion",
+        "trades": [],
+        "num_trades": 0,
+        "equity_final": 10000.0,
+        "return_pct": 0.0,
+        "max_drawdown_pct": 0.0
+      },
+      "GBP/USD": {
+        "symbol": "GBP/USD",
+        "strategy": "mean_reversion",
+        "trades": [],
+        "num_trades": 0,
+        "equity_final": 10000.0,
+        "return_pct": 0.0,
+        "max_drawdown_pct": 0.0
+      },
+      "USD/JPY": {
+        "symbol": "USD/JPY",
+        "strategy": "mean_reversion",
+        "trades": [],
+        "num_trades": 0,
+        "equity_final": 10000.0,
+        "return_pct": 0.0,
+        "max_drawdown_pct": 0.0
+      },
+      "USD/CHF": {
+        "symbol": "USD/CHF",
+        "strategy": "mean_reversion",
+        "trades": [],
+        "num_trades": 0,
+        "equity_final": 10000.0,
+        "return_pct": 0.0,
+        "max_drawdown_pct": 0.0
+      },
+      "AUD/USD": {
+        "symbol": "AUD/USD",
+        "strategy": "mean_reversion",
+        "trades": [],
+        "num_trades": 0,
+        "equity_final": 10000.0,
+        "return_pct": 0.0,
+        "max_drawdown_pct": 0.0
+      },
+      "USD/CAD": {
+        "symbol": "USD/CAD",
+        "strategy": "mean_reversion",
+        "trades": [],
+        "num_trades": 0,
+        "equity_final": 10000.0,
+        "return_pct": 0.0,
+        "max_drawdown_pct": 0.0
+      },
+      "NZD/USD": {
+        "symbol": "NZD/USD",
+        "strategy": "mean_reversion",
+        "trades": [],
+        "num_trades": 0,
+        "equity_final": 10000.0,
+        "return_pct": 0.0,
+        "max_drawdown_pct": 0.0
+      }
+    },
+    "breakout": {
+      "EUR/USD": {
+        "symbol": "EUR/USD",
+        "strategy": "breakout",
+        "trades": [],
+        "num_trades": 0,
+        "equity_final": 10000.0,
+        "return_pct": 0.0,
+        "max_drawdown_pct": 0.0
+      },
+      "GBP/USD": {
+        "symbol": "GBP/USD",
+        "strategy": "breakout",
+        "trades": [],
+        "num_trades": 0,
+        "equity_final": 10000.0,
+        "return_pct": 0.0,
+        "max_drawdown_pct": 0.0
+      },
+      "USD/JPY": {
+        "symbol": "USD/JPY",
+        "strategy": "breakout",
+        "trades": [],
+        "num_trades": 0,
+        "equity_final": 10000.0,
+        "return_pct": 0.0,
+        "max_drawdown_pct": 0.0
+      },
+      "USD/CHF": {
+        "symbol": "USD/CHF",
+        "strategy": "breakout",
+        "trades": [],
+        "num_trades": 0,
+        "equity_final": 10000.0,
+        "return_pct": 0.0,
+        "max_drawdown_pct": 0.0
+      },
+      "AUD/USD": {
+        "symbol": "AUD/USD",
+        "strategy": "breakout",
+        "trades": [],
+        "num_trades": 0,
+        "equity_final": 10000.0,
+        "return_pct": 0.0,
+        "max_drawdown_pct": 0.0
+      },
+      "USD/CAD": {
+        "symbol": "USD/CAD",
+        "strategy": "breakout",
+        "trades": [],
+        "num_trades": 0,
+        "equity_final": 10000.0,
+        "return_pct": 0.0,
+        "max_drawdown_pct": 0.0
+      },
+      "NZD/USD": {
+        "symbol": "NZD/USD",
+        "strategy": "breakout",
+        "trades": [],
+        "num_trades": 0,
+        "equity_final": 10000.0,
+        "return_pct": 0.0,
+        "max_drawdown_pct": 0.0
+      }
+    },
+    "trend_following": {
+      "EUR/USD": {
+        "symbol": "EUR/USD",
+        "strategy": "trend_following",
+        "trades": [],
+        "num_trades": 0,
+        "equity_final": 10000.0,
+        "return_pct": 0.0,
+        "max_drawdown_pct": 0.0
+      },
+      "GBP/USD": {
+        "symbol": "GBP/USD",
+        "strategy": "trend_following",
+        "trades": [
+          {
+            "symbol": "GBP/USD",
+            "side": "LONG",
+            "entry_price": 1.2470970948262055,
+            "lot_size": 1.0,
+            "stop_loss_pips": 15.0,
+            "take_profit_pips": 30.0,
+            "open_time": 

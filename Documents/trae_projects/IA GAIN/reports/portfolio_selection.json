@@ -1,0 +1,65 @@
+{
+  "timeframe": "1h",
+  "top_n": 5,
+  "only": "forex",
+  "mt5_all": true,
+  "selected": [
+    "EUR/USD",
+    "GBP/USD",
+    "USD/JPY",
+    "USD/CHF",
+    "AUD/USD"
+  ],
+  "portfolio": [
+    {
+      "symbol": "EUR/USD",
+      "decision_engine_score": 0.4,
+      "strategy": "TREND_FOLLOWING",
+      "normalized_score": 1.0,
+      "win_rate": 1.0,
+      "sharpe": 12.059582632240133,
+      "total_return": 0.1502256197583801,
+      "ticket": "289489226"
+    },
+    {
+      "symbol": "GBP/USD",
+      "decision_engine_score": 0.4,
+      "strategy": "TREND_FOLLOWING",
+      "normalized_score": 1.0,
+      "win_rate": 1.0,
+      "sharpe": 11.596004201611876,
+      "total_return": 0.15053984864001901,
+      "ticket": "289489232"
+    },
+    {
+      "symbol": "USD/JPY",
+      "decision_engine_score": 0.4,
+      "strategy": "TREND_FOLLOWING",
+      "normalized_score": 1.0,
+      "win_rate": 1.0,
+      "sharpe": 11.327395889484512,
+      "total_return": 0.1484565125021874,
+      "ticket": "289489235"
+    },
+    {
+      "symbol": "USD/CHF",
+      "decision_engine_score": 0.4,
+      "strategy": "TREND_FOLLOWING",
+      "normalized_score": 1.0,
+      "win_rate": 1.0,
+      "sharpe": 11.393993676978063,
+      "total_return": 0.14705880445326913,
+      "ticket": "289489239"
+    },
+    {
+      "symbol": "AUD/USD",
+      "decision_engine_score": 0.4,
+      "strategy": "TREND_FOLLOWING",
+      "normalized_score": 1.0,
+      "win_rate": 1.0,
+      "sharpe": 11.354468210826344,
+      "total_return": 0.14861627646087316,
+      "ticket": "289489249"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+🧪 **GUIA DE TESTE DO DASHBOARD - PURPOSE FOOD**
+
+🎯 **PASSO A PASSO PARA TESTAR O DASHBOARD:**
+
+**1️⃣ PRIMEIRO: Popular o Banco de Dados no Supabase**
+
+Acesse o Supabase:
+• URL: https://supabase.com
+• Projeto: xqsocdvvvbgdgrezoqlf
+• Vá para: SQL Editor
+
+Execute o script SQL:
+• Copie o conteúdo do arquivo: dashboard_test.sql
+• Cole no SQL Editor
+• Clique em: RUN
+
+**2️⃣ SEGUNDO: Testar Funcionalidade dos Botões**
+
+No navegador:
+• Abra: http://localhost:5173
+• Abra o console (F12)
+• Vá para aba "Console"
+• Copie e cole o conteúdo de: browser_test_dashboard.js
+• Execute: testDashboardButtons()
+
+**3️⃣ TERCEIRO: Verificar Estado do Sistema**
+
+Execute no console:
+```javascript
+checkSystemStatus();
+```
+
+**4️⃣ QUARTO: Testar Cada Botão do Dashboard**
+
+Teste especificamente:
+📊 Cards de Métricas (clique em cada um):
+• Total de Pedidos
+• Faturamento do Mês
+• Clientes Ativos
+• Produtos em Estoque
+
+🔗 Links de Navegação:
+• Dashboard → Home
+• Produtos → Lista de produtos
+• Pedidos → Kanban de pedidos
+• Clientes → Lista de clientes
+• Financeiro → Resumo financeiro
+
+➕ Botões de Ação:
+• "Novo Pedido" → Vai para /orders
+• "Nova Venda" → Vai para /sales
+• "Ver todos" → Vai para /orders
+• "Gerenciar Estoque" → Vai para /products
+
+**✅ RESULTADOS ESPERADOS:**
+
+Se TUDO estiver funcionando:
+• Todos os botões respondem ao clique
+• Notificações verdes aparecem no canto superior direito
+• Console mostra mensagens de sucesso
+• Navegação entre páginas funciona
+• Dados reais do banco são exibidos
+
+Se ALGO não estiver funcionando:
+• Botões não respondem
+• Nenhuma notificação aparece
+• Console mostra erros vermelhos
+• Páginas não carregam
+
+**🔧 SOLUÇÕES PARA PROBLEMAS COMUNS:**
+
+**Problema: "Botões não fazem nada"**
+Solução:
+1. Verifique se o script de teste foi executado
+2. Recarregue a página (F5)
+3. Execute o script novamente no console
+4. Tente clicar em diferentes áreas do botão
+
+**Problema: "Não consigo acessar o Supabase"**
+Solução:
+1. Verifique suas credenciais no arquivo .env
+2. Confirme que o projeto está ativo
+3. Teste a conexão com a API
+
+**Problema: "Dados não aparecem no dashboard"**
+Solução:
+1. Execute o script SQL no Supabase
+2. Verifique se as permissões estão corretas
+3. Confirme que está autenticado no sistema
+
+**📊 TESTES ESPECÍFICOS PARA CADA MÓDULO:**
+
+Dashboard:
+□ Cards de métricas clicáveis
+□ Gráficos visíveis
+□ Tabela de pedidos recentes
+□ Alertas de estoque
+
+Produtos:
+□ Lista de produtos carrega
+□ Botão "Novo Produto" funciona
+□ Busca e filtros funcionam
+□ Edição e exclusão de produtos
+
+Pedidos:
+□ Kanban de pedidos visível
+□ Arrastar pedidos entre colunas
+□ Detalhes do pedido ao clicar
+□ Criar novo pedido
+
+Clientes:
+□ Lista de clientes carrega
+□ Adicionar novo cliente
+□ Filtrar por tipo (individual/empresa)
+□ Ver histórico de pedidos
+
+Financeiro:
+□ Resumo financeiro visível
+□ Adicionar receita/despesa
+□ Gráficos de tendência
+□ Relatório mensal
+
+**🚨 COMO REPORTAR PROBLEMAS:**
+
+Quando encontrar um problema, forneça:
+1. O que você estava tentando fazer?
+2. O que aconteceu exatamente?
+3. Mensagem de erro no console (se houver)
+4. Screenshots se possível
+5. Passos para reproduzir o problema
+
+**📞 SUPORTE:**
+
+Arquivos de teste disponíveis:
+• dashboard_test.sql - Script SQL
+• browser_test_dashboard.js - Script de teste
+• src/GUIA_TESTE_DASHBOARD.md - Guia completo
+
+**🚀 AGORA É SÓ TESTAR!**
+
+1. Execute o script SQL no Supabase
+2. Teste o dashboard com os botões
+3. Verifique se tudo está funcionando
+4. Me diga quaisquer problemas que encontrar!

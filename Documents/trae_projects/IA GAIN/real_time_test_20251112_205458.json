@@ -1,0 +1,31 @@
+{
+  "test_type": "real_time_market_test",
+  "start_time": "2025-11-12T20:51:57.585703",
+  "end_time": "2025-11-12T20:54:58.081247",
+  "duration_minutes": 3.0081917,
+  "initial_balance": 9931.38,
+  "final_balance": 9931.38,
+  "pnl": 0.0,
+  "pnl_percentage": 0.0,
+  "total_trades": 0,
+  "cycles_completed": 2,
+  "trades_won": 0,
+  "trades_lost": 0,
+  "max_drawdown": 0.0,
+  "parameters_used": {
+    "max_risk_per_trade": 0.005,
+    "min_confidence": 0.6,
+    "risk_reward_ratio": 2.0,
+    "max_positions": 3,
+    "volume_base": 0.01,
+    "filters": {
+      "max_spread": 30,
+      "min_volatility": 0.0002,
+      "max_volatility": 0.015,
+      "volume_threshold": 2.0,
+      "trend_confirmation_periods": 3
+    }
+  },
+  "operation_history": [],
+  "active_positions_at_end": []
+}
