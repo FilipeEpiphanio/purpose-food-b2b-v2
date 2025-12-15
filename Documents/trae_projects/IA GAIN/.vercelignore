@@ -24,7 +24,7 @@ src/data/
 src/alerts/
 src/interface/
 src/tests/
-*.json  # Arquivos de backtest e config
+# *.json  # DESATIVADO - Não ignorar package.json e outros arquivos JSON importantes
 
 # Ignorar arquivos de build e cache locais
 node_modules/
